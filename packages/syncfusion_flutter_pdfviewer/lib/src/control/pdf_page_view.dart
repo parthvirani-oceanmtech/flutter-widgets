@@ -287,7 +287,7 @@ class PdfPageViewState extends State<PdfPageView> {
       final Widget pdfPage = Container(
         height: widget.height + heightSpacing,
         width: widget.width + widthSpacing,
-        color: Colors.white,
+ 
         alignment: Alignment.topCenter,
         child: widget.scrollDirection == PdfScrollDirection.vertical
             ? Column(children: <Widget>[
@@ -593,7 +593,7 @@ class PdfPageViewState extends State<PdfPageView> {
       final Widget child = Container(
         height: widget.height + heightSpacing,
         width: widget.width + widthSpacing,
-        color: Colors.white,
+    
         foregroundDecoration: BoxDecoration(
           border: widget.isSinglePageView
               ? Border(left: borderSide, right: borderSide)
